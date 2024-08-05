@@ -9,10 +9,11 @@ def string_info(string):
 
 def is_contains(string, list_to_search):
     count_calls()
-    for is in list_to_search:
-        if i.upper() == string.upper:
-    return True
-    return False
+    string.lower()
+    new_list_to_search = []
+    for i in list_to_search:
+        new_list_to_search.append(i.lower())
+    return (string.lower() in new_list_to_search)
 
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
